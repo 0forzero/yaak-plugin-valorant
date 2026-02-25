@@ -44,7 +44,7 @@ Actions are available in workspace, HTTP request, and websocket request action m
 - Node.js 18+
 - Windows (current implementation expects Riot/VALORANT Windows paths and uses Windows process/registry commands for MITM)
 
-## Local Install (Yaak)
+## Local Install
 
 1. Install dependencies and build:
 
@@ -78,11 +78,14 @@ npm run convert:workspace -- insomnia-workspace-valorant.json yaak-workspace-val
 - `xmpp_mitm_websocket_url` (MITM): close Riot Client first, then connect MITM websocket.
 
 ## Troubleshooting
-
 - `Lockfile not found! Is Valorant running?`
   - Start VALORANT so Riot lockfile exists.
 - Riot auth tags fail
   - Run `Riot Login` action again.
+- Error using local endpoints
+`Failed to send request: Client error: reqwest::Error { kind: Request, source: hyper_util::client::legacy::Error(Connect, Custom { kind: Other, error: Custom { kind: InvalidData, error: InvalidCertificate(UnknownIssuer) } }) }`
+  - In Yaak: `Settings -> General -> Workspace -> Validate TLS Certificates (uncheck)`
+
 
 ## Attribution
 
