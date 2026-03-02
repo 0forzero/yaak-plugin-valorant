@@ -3,7 +3,7 @@
 Yaak plugin that ports the behavior of [`insomnia-plugin-valorant`](https://github.com/techchrism/insomnia-plugin-valorant) to Yaak.
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1392750424473342076/1476728887886221503/image.png?ex=69a22e73&is=69a0dcf3&hm=7fbe53670e588b133fcef20333bcc44263cd099a39d19962dc3bc3e2a23bdb2e"/>
+  <img src="https://images.steamusercontent.com/ugc/13464342374805811506/1B35C1F5DC1B039D8CD64476CB092CE16F9D55BB/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"/>
 </p>
 
 ## What It Includes
