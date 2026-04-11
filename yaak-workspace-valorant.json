@@ -1419,8 +1419,8 @@
         "folderId": "GENERATE_ID::__GROUP_6__",
         "name": "Storefront",
         "description": "Get the currently available items in the store\n\nMore info at <https://valapidocs.techchrism.me/endpoint/storefront>",
-        "method": "GET",
-        "url": "https://pd.${[ valorant_shard() ]}.a.pvp.net/store/v2/storefront/${[ puuid() ]}",
+        "method": "POST",
+        "url": "https://pd.${[ valorant_shard() ]}.a.pvp.net/store/v3/storefront/${[ puuid() ]}",
         "headers": [
           {
             "enabled": true,
@@ -1440,7 +1440,7 @@
         ],
         "urlParameters": [],
         "bodyType": null,
-        "body": {},
+        "body": {{}},
         "authenticationType": "bearer",
         "authentication": {
           "token": "${[ valorant_token() ]}"
